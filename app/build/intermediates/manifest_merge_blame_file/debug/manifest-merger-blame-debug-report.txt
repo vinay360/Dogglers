@@ -1,0 +1,134 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.dogglersapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\vinay\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\vinay\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\vinay\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:5:5-49:19
+12        android:allowBackup="true"
+12-->C:\Users\vinay\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.8.0] C:\Users\vinay\.gradle\caches\transforms-3\ba43315facdb40180250f95e40b713dd\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->C:\Users\vinay\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:7:9-65
+15        android:debuggable="true"
+16        android:fullBackupContent="@xml/backup_rules"
+16-->C:\Users\vinay\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:8:9-54
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\vinay\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\vinay\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\vinay\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\vinay\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:12:9-35
+21        android:theme="@style/Theme.DogglersApp" >
+21-->C:\Users\vinay\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:13:9-49
+22        <activity
+22-->C:\Users\vinay\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:15:9-21:20
+23            android:name="com.example.dogglersapp.NavigationActivity"
+23-->C:\Users\vinay\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:16:13-47
+24            android:exported="false" >
+24-->C:\Users\vinay\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:17:13-37
+25            <meta-data
+25-->C:\Users\vinay\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:18:13-20:36
+26                android:name="android.app.lib_name"
+26-->C:\Users\vinay\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:19:17-52
+27                android:value="" />
+27-->C:\Users\vinay\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:20:17-33
+28        </activity>
+29        <activity
+29-->C:\Users\vinay\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:22:9-28:20
+30            android:name="com.example.dogglersapp.ViewPagerActivity"
+30-->C:\Users\vinay\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:23:13-46
+31            android:exported="false" >
+31-->C:\Users\vinay\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:24:13-37
+32            <meta-data
+32-->C:\Users\vinay\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:18:13-20:36
+33                android:name="android.app.lib_name"
+33-->C:\Users\vinay\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:19:17-52
+34                android:value="" />
+34-->C:\Users\vinay\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:20:17-33
+35        </activity>
+36        <activity
+36-->C:\Users\vinay\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:29:9-35:20
+37            android:name="com.example.dogglersapp.DetailActivity"
+37-->C:\Users\vinay\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:30:13-43
+38            android:exported="false" >
+38-->C:\Users\vinay\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:31:13-37
+39            <meta-data
+39-->C:\Users\vinay\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:18:13-20:36
+40                android:name="android.app.lib_name"
+40-->C:\Users\vinay\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:19:17-52
+41                android:value="" />
+41-->C:\Users\vinay\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:20:17-33
+42        </activity>
+43        <activity
+43-->C:\Users\vinay\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:36:9-48:20
+44            android:name="com.example.dogglersapp.MainActivity"
+44-->C:\Users\vinay\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:37:13-41
+45            android:exported="true" >
+45-->C:\Users\vinay\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:38:13-36
+46            <intent-filter>
+46-->C:\Users\vinay\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:39:13-43:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->C:\Users\vinay\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:40:17-69
+47-->C:\Users\vinay\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:40:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->C:\Users\vinay\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:42:17-77
+49-->C:\Users\vinay\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:42:27-74
+50            </intent-filter>
+51
+52            <meta-data
+52-->C:\Users\vinay\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:18:13-20:36
+53                android:name="android.app.lib_name"
+53-->C:\Users\vinay\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:19:17-52
+54                android:value="" />
+54-->C:\Users\vinay\AndroidStudioProjects\DogglersApp\app\src\main\AndroidManifest.xml:20:17-33
+55        </activity>
+56
+57        <uses-library
+57-->[androidx.window:window:1.0.0] C:\Users\vinay\.gradle\caches\transforms-3\a4d2ea26fef69192480de579f7ce43a5\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+58            android:name="androidx.window.extensions"
+58-->[androidx.window:window:1.0.0] C:\Users\vinay\.gradle\caches\transforms-3\a4d2ea26fef69192480de579f7ce43a5\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+59            android:required="false" />
+59-->[androidx.window:window:1.0.0] C:\Users\vinay\.gradle\caches\transforms-3\a4d2ea26fef69192480de579f7ce43a5\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+60        <uses-library
+60-->[androidx.window:window:1.0.0] C:\Users\vinay\.gradle\caches\transforms-3\a4d2ea26fef69192480de579f7ce43a5\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+61            android:name="androidx.window.sidecar"
+61-->[androidx.window:window:1.0.0] C:\Users\vinay\.gradle\caches\transforms-3\a4d2ea26fef69192480de579f7ce43a5\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+62            android:required="false" />
+62-->[androidx.window:window:1.0.0] C:\Users\vinay\.gradle\caches\transforms-3\a4d2ea26fef69192480de579f7ce43a5\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+63
+64        <provider
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vinay\.gradle\caches\transforms-3\ad3bad3fec53bdbd7d99438dc871ad14\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+65            android:name="androidx.startup.InitializationProvider"
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vinay\.gradle\caches\transforms-3\ad3bad3fec53bdbd7d99438dc871ad14\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+66            android:authorities="com.example.dogglersapp.androidx-startup"
+66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vinay\.gradle\caches\transforms-3\ad3bad3fec53bdbd7d99438dc871ad14\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+67            android:exported="false" >
+67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vinay\.gradle\caches\transforms-3\ad3bad3fec53bdbd7d99438dc871ad14\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+68            <meta-data
+68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vinay\.gradle\caches\transforms-3\ad3bad3fec53bdbd7d99438dc871ad14\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+69                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vinay\.gradle\caches\transforms-3\ad3bad3fec53bdbd7d99438dc871ad14\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+70                android:value="androidx.startup" />
+70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\vinay\.gradle\caches\transforms-3\ad3bad3fec53bdbd7d99438dc871ad14\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+71            <meta-data
+71-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\vinay\.gradle\caches\transforms-3\30b7e61d9e606ba26d9ae763b04740ff\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+72                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+72-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\vinay\.gradle\caches\transforms-3\30b7e61d9e606ba26d9ae763b04740ff\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+73                android:value="androidx.startup" />
+73-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\vinay\.gradle\caches\transforms-3\30b7e61d9e606ba26d9ae763b04740ff\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+74        </provider>
+75    </application>
+76
+77</manifest>
